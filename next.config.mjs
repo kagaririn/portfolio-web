@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio-web' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio-web/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
